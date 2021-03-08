@@ -17,5 +17,10 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("Scene3");
     }
+
+    public void LoadNextSceneAutomated()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
 }
 

@@ -207,9 +207,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 324699272}
-        m_TargetAssemblyTypeName: SceneLoaderWithParameter, Assembly-CSharp
-        m_MethodName: LoadNextScene
-        m_Mode: 5
+        m_TargetAssemblyTypeName: SceneLoader, Assembly-CSharp
+        m_MethodName: LoadNextSceneAutomated
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -267,7 +267,7 @@ GameObject:
   - component: {fileID: 324699273}
   - component: {fileID: 324699272}
   m_Layer: 0
-  m_Name: SceneLoaderWithParameter
+  m_Name: SceneLoaderAutomated
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -282,7 +282,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 324699271}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ea2cfef0a72d2d4581d6551b7abec49, type: 3}
+  m_Script: {fileID: 11500000, guid: 70bf86e4d89e60d438cfbefd91da62a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!4 &324699273

@@ -3,8 +3,13 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoaderWithParameter : MonoBehaviour
 {
-    public void LoadNextScene(string name)
+    public void LoadNextSceneWithParamString(string name)
     {
         SceneManager.LoadScene(name);
+    }
+
+    public void LoadNextSceneWithBuildIndex(int buildIndex)
+    {
+        SceneManager.LoadScene(buildIndex);
     }
 }
